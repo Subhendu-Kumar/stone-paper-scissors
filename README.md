@@ -29,7 +29,7 @@ You can play the game online [here](#) [https://stone-paper-scissor-subh.netlify
 
 ## Credits
 
-- Created by [Subhendu Kumar]
+- Created by [Subhendu Kumar  (subh)]
 
 ## License
 
