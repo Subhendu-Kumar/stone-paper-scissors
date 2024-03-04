@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../1-Basic of HTML/SK_EDITZ_339.png" type="image/x-icon">
+</head>
+
+<body class="flex-column">
+
+    <div class="heading flex-row">
+        Stone Paper Scissor
+    </div>
+
+    <div class="choices flex-row">
+        <div class="user-choice flex-row">
+            <div class="choice flex-column select" id="rock">
+                <img class="img-choice" src="./img/rock.png" alt="rock">
+                <p>Choice-1</p>
+            </div>
+            <div class="choice flex-column select" id="paper">
+                <img class="img-choice" src="./img/paper.png" alt="paper">
+                <p>Choice-2</p>
+            </div>
+            <div class="choice flex-column select" id="scissors">
+                <img class="img-choice" src="./img/scissors.png" alt="scissors">
+                <p>Choice-3</p>
+            </div>
+        </div>
+        <div class="choice flex-column" id="comp-output">
+            <img src="./img/default.png" alt="output" id="comp-OP">
+            <p>Comp-O/P</p>
+        </div>
+    </div>
+
+    <div class="score-board flex-row">
+        <div class="score flex-row">
+            <p>You :</p>
+            <p id="user-score">0</p>
+        </div>
+        <div class="score flex-row">
+            <p>Comp :</p>
+            <p id="comp-score">0</p>
+        </div>
+        <div class="score flex-row">
+            <p>Draw :</p>
+            <p id="draw-score">0</p>
+        </div>
+    </div>
+
+    <div class="reset-div flex-row">
+        <button id="reset">Reset! Game</button>
+    </div>
+
+    <div class="msg-container">
+        <p id="msg">play your move</p>
+    </div>
+
+</body>
+
+<script src="app.js"></script>
+
+</html>
